@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="description" content="Четыре месяца нас. Маленький альбом самых тёплых воспоминаний и письмо для тебя.">
+  <title>четыре месяца нас ♡</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">к содержимому</a>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="В начало">♡ <span>это всё про нас</span></a>
+    <nav aria-label="Разделы альбома"><a href="#memories">воспоминания</a><a href="#letter">письмо тебе <span aria-hidden="true">↗</span></a></nav>
+    <span class="header-date">12 . 11 . 2026</span>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-heart" aria-hidden="true">♥</span> маленькая дата. большие чувства.</p>
+        <h1 id="hero-title">четыре<br>месяца <em>нас.</em></h1>
+        <p class="handwritten hero-note">и столько всего впереди…</p>
+        <p class="hero-description">этот маленький уголок — для нас.<br>про наши моменты, твой смех и то,<br>как хорошо мне рядом с тобой.</p>
+        <a class="button primary" href="#memories">давай немного повспоминаем <span aria-hidden="true">↘</span></a>
+        <p class="small-note">собрано с любовью, специально для тебя</p>
+      </div>
+      <div class="hero-collage">
+        <span class="collage-label handwritten">моё любимое «мы»</span>
+        <svg class="doodle-arrow" viewBox="0 0 130 95" fill="none" aria-hidden="true"><path d="M9 10C67-8 115 23 85 57C62 81 37 45 66 37C83 33 112 51 112 82M101 73L112 86L123 72"/></svg>
+        <figure class="hero-polaroid"><span class="tape" aria-hidden="true"></span><img src="assets/03-camera.png" width="2560" height="1920" alt="Вы вдвоём целуетесь на фотографии с мыльницы" fetchpriority="high"><figcaption class="handwritten">вот здесь — счастье ♡</figcaption></figure>
+        <figure class="mini-polaroid"><img src="assets/04-bouquet.png" width="971" height="1280" alt="Вы вместе с розовым букетом"><figcaption>you + me</figcaption></figure>
+        <div class="anniversary-stamp" aria-label="4 месяца вместе"><span>вместе уже</span><strong>4</strong><span>месяца ♡</span></div>
+        <span class="hero-star handwritten" aria-hidden="true">✳</span>
+      </div>
+    </section>
+
+    <div class="timeline wrap" aria-label="С 12 июля по 12 ноября 2026 года"><span>12.07.2026</span><span class="timeline-line"></span><span class="timeline-center">ты + я = мы <b aria-hidden="true">♡</b></span><span class="timeline-line"></span><span>12.11.2026</span></div>
+
+    <section class="memories wrap" id="memories" aria-labelledby="memories-title">
+      <div class="section-heading"><div><p class="eyebrow">наш маленький альбом</p><h2 id="memories-title">а помнишь<span class="handwritten">?..</span></h2></div><p>некоторые моменты хочется<br> оставить у себя навсегда.</p></div>
+      <div class="memory-grid">
+        <article class="memory memory-eyes">
+          <div class="memory-visual eyes-visual" id="eyes-visual">
+            <span class="tape" aria-hidden="true"></span>
+            <span class="eyes-corner" aria-hidden="true">✧</span>
+            <svg class="eyes-drawing" viewBox="0 0 320 180" fill="none" aria-hidden="true"><path d="M28 98Q81 26 139 95Q85 135 28 98ZM180 95Q238 26 293 98Q234 135 180 95Z"/><path d="M78 73C56 101 96 120 105 91C110 68 76 63 78 88M230 73C209 102 248 119 257 90C263 67 229 64 230 88M34 82L23 66M49 65L44 50M121 69L130 53M186 74L175 58M277 74L287 59M294 88L307 79"/><path class="draw-sparkle" d="M161 21V43M150 32H172M145 146L153 163L161 146L153 132Z"/></svg>
+            <p class="handwritten eyes-quote">у тебя в глазах —<br>что-то моё любимое.</p>
+            <span class="eyes-foot">один взгляд. столько тепла.</span>
+          </div>
+          <div class="memory-caption"><span class="memory-number">01 /</span><div><h3>а помнишь, как глаза светились тогда?</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-roses">
+          <button class="photo-button memory-visual" data-photo="assets/02-roses.png" data-caption="А помнишь, сикс севееен роз? 🌹" aria-label="Увеличить фотографию с розами"><img src="assets/02-roses.png" width="1280" height="960" alt="Вы вдвоём и букет красных роз" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span><span class="photo-sticker handwritten" aria-hidden="true">сикс севееен 🌹</span></button>
+          <div class="memory-caption"><span class="memory-number">02 /</span><div><h3>а помнишь, сикс севееен роз?</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-camera">
+          <button class="photo-button memory-visual" data-photo="assets/03-camera.png" data-caption="А помнишь, на мыльницу фоткались? ♡" aria-label="Увеличить фотографию с мыльницы"><img src="assets/03-camera.png" width="2560" height="1920" alt="Ваш поцелуй, снятый со вспышкой на мыльницу" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span></button>
+          <div class="memory-caption"><span class="memory-number">03 /</span><div><h3>а помнишь, на мыльницу фоткались?</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-bouquet">
+          <button class="photo-button memory-visual" data-photo="assets/04-bouquet.png" data-caption="А помнишь первый букет, когда ты заболела? ♡" aria-label="Увеличить фотографию с первым букетом"><img src="assets/04-bouquet.png" width="971" height="1280" alt="Вы с первым розовым букетом и нарисованными кошачьими ушками" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span><span class="bouquet-sticker handwritten" aria-hidden="true">для моей девочки ♡</span></button>
+          <div class="memory-caption"><span class="memory-number">04 /</span><div><h3>а помнишь первый букет, когда ты заболела?</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-us">
+          <button class="photo-button memory-visual" data-photo="assets/05-us.png" data-caption="мы, мы и только мы" aria-label="Увеличить фотографию в зеркале"><img src="assets/05-us.png" width="960" height="1280" alt="Вы обнимаетесь и фотографируетесь вместе в зеркале" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span></button>
+          <div class="memory-caption"><span class="memory-number">05 /</span><div><h3>мы, мы и только мы</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-son">
+          <button class="photo-button memory-visual" data-photo="assets/06-son.png" data-caption="с сыночкой" aria-label="Увеличить фотографию с котиком"><img src="assets/06-son.png" width="1920" height="2560" alt="Котик сидит на коленях, а его гладят по голове" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span></button>
+          <div class="memory-caption"><span class="memory-number">06 /</span><div><h3>с сыночкой</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-portrait">
+          <button class="photo-button memory-visual" data-photo="assets/07-law.png" data-caption="кто мы - мы закон, сучка." aria-label="Увеличить фотографию с кошачьими ушками"><img src="assets/07-law.png" width="1080" height="1440" alt="Вы вдвоём с фильтром кошачьих ушек и усиков" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span></button>
+          <div class="memory-caption"><span class="memory-number">07 /</span><div><h3>кто мы - мы закон, сучка.</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+        <article class="memory memory-portrait">
+          <button class="photo-button memory-visual" data-photo="assets/08-young.png" data-caption="молодые зеленые" aria-label="Увеличить фотографию с собачьими ушками"><img src="assets/08-young.png" width="1080" height="1440" alt="Ваше совместное селфи с фильтром собачьих ушек" loading="lazy"><span class="photo-zoom" aria-hidden="true">↗</span></button>
+          <div class="memory-caption"><span class="memory-number">08 /</span><div><h3>молодые зеленые</h3></div><span class="caption-heart" aria-hidden="true">♡</span></div>
+        </article>
+      </div>
+      <div class="more-memories"><span class="handwritten more-heart" aria-hidden="true">♡</span><p>прости, что фоток пока мало.<br><strong>наделаем ещё. обязательно.</strong></p><p class="more-description">ещё будут случайные кадры, смешные селфи,<br>новые места и целая жизнь наших маленьких «а помнишь?».</p><span class="handwritten more-signature">места для счастья хватит →</span></div>
+    </section>
+
+    <section class="letter-section" id="letter" aria-labelledby="letter-title">
+      <div class="letter-layout wrap">
+        <div class="letter-intro"><p class="eyebrow">кое-что, что хочется сказать</p><h2 id="letter-title">тебе.<br><em>от всего сердца.</em></h2><p>иногда словами сложно передать всё.<br>но я всё-таки попробую.</p><span class="handwritten letter-aside">это письмо только для тебя ♡</span></div>
+        <button class="envelope" id="open-letter" aria-haspopup="dialog" aria-label="Открыть письмо для тебя"><span class="envelope-paper"><span class="handwritten">моя любимая…</span><span class="paper-lines" aria-hidden="true"></span></span><span class="envelope-back" aria-hidden="true"></span><span class="envelope-front" aria-hidden="true"></span><span class="envelope-flap" aria-hidden="true"></span><span class="wax-seal" aria-hidden="true">♡</span><span class="envelope-label">нажми, чтобы открыть <span aria-hidden="true">↗</span></span></button>
+      </div>
+    </section>
+
+    <section class="future wrap" aria-labelledby="future-title"><p class="eyebrow">четыре месяца — это только начало</p><h2 id="future-title">пусть дальше будет<br>ещё больше <em>нас.</em></h2><p>больше обниматься. громче смеяться.<br>беречь друг друга. и находить счастье в мелочах.</p><button class="button wish-button" id="wish-button">ещё кое-что для тебя <span aria-hidden="true">♡</span></button><p id="wish" class="wish handwritten" role="status" aria-live="polite">ты — моя любимая случайность.</p><span class="future-doodle handwritten" aria-hidden="true">люблю тебя!</span></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#">♡ <span>продолжение следует</span></a><span>12 ноября 2026 · наши 4 месяца</span></footer>
+
+  <dialog class="photo-dialog" id="photo-dialog" aria-label="Фотография из нашего альбома"><button class="dialog-close" type="button" data-close aria-label="Закрыть фотографию">×</button><figure><img id="large-photo" alt=""><figcaption id="large-caption" class="handwritten"></figcaption></figure><div class="photo-controls"><button id="photo-prev" aria-label="Предыдущая фотография">←</button><span id="photo-counter" aria-live="polite"></span><button id="photo-next" aria-label="Следующая фотография">→</button></div></dialog>
+  <dialog class="letter-dialog" id="letter-dialog" aria-labelledby="letter-greeting"><button class="dialog-close" type="button" data-close aria-label="Закрыть письмо">×</button><article><p class="eyebrow">12 ноября 2026 · личное</p><h2 id="letter-greeting" class="handwritten">моя любимая,</h2><p>сегодня у нас четыре месяца. вроде бы маленькая дата, а столько тёплого уже связано с тобой. четыре месяца — это только начало нашего пути, но я уже не представляю свои будни без тебя.</p><p>спасибо тебе за твой смех, за объятия, за твои нежные поцелуи, за наши дурачества. за то, что рядом с тобой даже самый обычный день становится каким-то особенным. мне нравится в тебе абсолютно всё: твоя искренность, твоя забота и то, как ты умеешь радоваться мелочам. мне очень хорошо с тобой.</p><p>я хочу, чтобы ты чаще улыбалась — твоя улыбка буквально освещает всё вокруг. хочу, чтобы у тебя получалось то, о чём ты мечтаешь. чтобы рядом со мной тебе было тепло, спокойно и можно было просто быть собой. я всегда буду рядом, чтобы поддержать тебя в любой момент.</p><p>я утопаю каждый раз, когда смотрю в твои глаза. ты всегда спрашиваешь "что?", а я не знаю как тебе объяснить, то, что это лучшее мгновение, который происходит практически каждый день. чувствовать твою улыбку, понимая, что мы счастливы. находится рядом с тобой, и больше ничего.</p><p>и прости меня за то, что иногда веду себя как дурак. я правда не со зла и очень хочу, чтобы между нами всё было хорошо. обещаю больше стараться ради нас и делать тебя только счастливее.</p><p>и еще прости, что фотографий пока так мало. мы ещё наделаем кучу новых: красивых, смешных, смазанных — любых. лишь бы вместе. я с нетерпением жду всех тех моментов, мест и событий, которые у нас ещё впереди.</p><p>давай беречь то, что у нас есть. разговаривать, обнимать друг друга покрепче и собирать ещё больше моментов, к которым захочется вернуться и повторить.</p><p>я верю в тебя, в себя, в нас. мы самые лучшие, все у нас обязательно получится.</p><p class="letter-final">с нашими четырьмя месяцами.<br>очень тебя люблю.</p><p class="letter-sign handwritten">твой илья ♡</p></article></dialog>
+  <div class="hearts-layer" id="hearts-layer" aria-hidden="true"></div>
+</body>
+</html>
